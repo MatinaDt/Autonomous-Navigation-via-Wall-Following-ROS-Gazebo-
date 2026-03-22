@@ -46,7 +46,11 @@ The control inputs are linear and angular velocity.
 ---
 ## Control Architecture
 <p align="center">
-  <img src="images/Control Architecture.png" width="600">
+  <img src="Control Architecture.png" width="600">
+</p>
+
+<p align="center">
+  <em>Control architecture of the wall-following system</em>
 </p>
 
 ---
@@ -149,8 +153,14 @@ Typical observations:
 * Angular velocity increases near corners
 * Initial transient until the wall is detected
 * 
-<img src="images/sonar.png" width="45%">
-<img src="images/velocity.png" width="45%">
+<p align="center">
+  <img src="Sonar.png" width="48%">
+  <img src="Velocity.png" width="48%">
+</p>
+
+<p align="center">
+  <em>Left: Sonar measurements. Right: Linear and angular velocity profiles.</em>
+</p>
 
 ---
 
