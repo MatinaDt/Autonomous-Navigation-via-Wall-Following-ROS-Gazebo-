@@ -134,24 +134,23 @@ rosrun your_package follower.py
 The robot will:
 
 * Approach the wall
-* Follow it while maintaining constant distance
+* Follow it while maintaining a constant distance
 * Navigate around corners
 
 ---
 
 ## Results
 
-The controller achieves:
-
-* Stable wall following behavior
-* Smooth motion with constant linear velocity
-* Effective corner handling using reactive control
+The controller achieves stable wall-following with smooth motion and effective cornering.
 
 Typical observations:
 
-* Distance measurements stabilize around reference values
+* Distance measurements stabilise around reference values
 * Angular velocity increases near corners
-* Initial transient until wall is detected
+* Initial transient until the wall is detected
+* 
+<img src="images/sonar.png" width="45%">
+<img src="images/velocity.png" width="45%">
 
 ---
 
