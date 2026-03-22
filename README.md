@@ -32,6 +32,9 @@ Key constraints:
 ---
 
 ## System
+<p align="center">
+  <img src="images/Wall Following.png" width="600">
+</p>
 
 The robot is equipped with:
 
@@ -39,6 +42,12 @@ The robot is equipped with:
 * IMU
 
 The control inputs are linear and angular velocity.
+
+---
+## Control Architecture
+<p align="center">
+  <img src="images/Control Architecture.png" width="600">
+</p>
 
 ---
 
@@ -85,11 +94,6 @@ where u is a switching variable that activates corner correction.
 * Python
 * NumPy
 
----
-## Control Architecture
-<p align="center">
-  <img src="images/Control Architecture.png" width="600">
-</p>
 
 ## Project Structure
 
