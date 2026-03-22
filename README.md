@@ -32,9 +32,6 @@ Key constraints:
 ---
 
 ## System
-<p align="center">
-  <img src="images/Wall Following.png" width="600">
-</p>
 
 The robot is equipped with:
 
@@ -46,7 +43,7 @@ The control inputs are linear and angular velocity.
 ---
 ## Control Architecture
 <p align="center">
-  <img src="Control Architecture.png" width="600">
+  <img src="images/Wall Following.png" width="600">
 </p>
 
 <p align="center">
@@ -154,8 +151,8 @@ Typical observations:
 * Initial transient until the wall is detected
 * 
 <p align="center">
-  <img src="Sonar.png" width="48%">
-  <img src="Velocity.png" width="48%">
+  <img src="images/Sonar.png" width="48%">
+  <img src="images/Velocity.png" width="48%">
 </p>
 
 <p align="center">
