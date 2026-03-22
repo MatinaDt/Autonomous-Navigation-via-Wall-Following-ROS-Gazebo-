@@ -15,6 +15,10 @@ The system uses sensor-based feedback control to navigate in an environment with
 ---
 
 ## Problem Description
+<p align="center">
+  <img src="images/Wall Following.png" width="600"><br>
+  <em>Mobile robot in the obstacle environment</em>
+</p>
 
 The robot operates in a bounded environment with obstacles and is required to:
 
@@ -43,7 +47,7 @@ The control inputs are linear and angular velocity.
 ---
 ## Control Architecture
 <p align="center">
-  <img src="images/Wall Following.png" width="600">
+  <img src="images/Control Architecture.png" width="600">
 </p>
 
 <p align="center">
@@ -105,6 +109,11 @@ mymobibot_wall_following/
 ├── scripts/
 │   ├── follower.py
 │   └── plots.py
+├── images/
+      |── Control Architecture.png
+      ├── Sonar.png
+      ├── Velocity.png
+      └── Wall Following.png
 ├── CMakeLists.txt
 ├── package.xml
 └── README.md
